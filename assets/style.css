@@ -1,3 +1,35 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-image: url('weather_album-art-1000x1000.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.container-fluid{
+    border: thin;
+    border-color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.header-style {
+    text-align: center;
+    color: white;
+}
+h4 {
+    margin: right;
+}
+
 h1 {
     text-align: center;
     background-color:black;
@@ -6,14 +38,10 @@ h1 {
     padding:15px;
   }
   .input-group {
+      text-align: center;
     margin-bottom: 15px;
   }
-  .header-style {
-      background: url("");
-    font-size: 40px;
-    color: #ffffff;
-    text-align: center;
-  }
+  
   .card {
     width:100%;
   }
